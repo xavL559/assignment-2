@@ -15,6 +15,9 @@ body {
 
 h1, h2, h3 {
 	font-family: 'Barriecito', cursive;
+	position: relative;
+	right: -30px;
+	
 }
 
 h1 {
@@ -23,6 +26,7 @@ h1 {
 
 h2 {
 	font-size: 1.75em;
+	
 }
 
 h3 {
@@ -30,11 +34,14 @@ h3 {
 }
 
 p {
-
+	
 }
 
 .album-art {
-
+	border: 1px solid red;
+	padding: 8px 8px;
+	position: relative;
+right: -30px;
 }
 
 .clear {
@@ -42,28 +49,36 @@ p {
 }
 
 .image-electronics, .image-stage-effects {
-	
+	border: 1px solid red;
+padding: 8px 8px;
+position: relative;
+right: -30px;
 }
 
 .record-label {
-
+color: red;
 }
 
 .track-list {
-
+position: relative;
+right: -250px;
+top: -250px;
 }
 
 #about-photo {
 border: 1px solid red;
 padding: 8px 8px;
+position: relative;
+right: -30px;
 }
 
 #copyright {
-
+color: red;
 }
 
 #section-about, #section-discography, #section-equipment {
-
+	border: 1px solid red;
+	margin: 8px;
 }
 
 #text-intro {
@@ -74,6 +89,8 @@ padding: 8px 8px;
 }
 
 .firstpara {
-	
-	float: right;
+	position: relative;
+	right: -340px;
+	top: -230px;
 }
+
